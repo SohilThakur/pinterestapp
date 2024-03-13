@@ -4,7 +4,7 @@ mongoose.connect("mongodb://127.0.0.1:27017/pinterestapp");
 
 // Define the post schema
 const postSchema = new mongoose.Schema({
-  imagepText: {
+  imageText: {
     type: String,
     required: true,
   },

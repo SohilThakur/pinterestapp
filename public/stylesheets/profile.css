@@ -10,6 +10,12 @@ body {
     margin: 0 auto;
     padding: 20px;
   }
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  gap : 20px;
+}
   
   .cardpers {
     background-color: #fff;
@@ -58,6 +64,7 @@ body {
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
+    margin: 10px;
   }
   
   .button:hover {
