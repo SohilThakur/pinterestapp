@@ -41,7 +41,7 @@ router.post(
 
     user.posts.push(post._id);
     await user.save();
-    res.send("done");
+    res.redirect("/profile");
   }
 );
 
